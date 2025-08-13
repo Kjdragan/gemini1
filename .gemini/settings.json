@@ -10,9 +10,6 @@
             ],
             "env": {}
         },
-        "deepwiki": {claude mcp add -s user -t http deepwiki https: //mcp.deepwiki.com/mcp
-            "httpUrl": "https://mcp.deepwiki.com/sse"
-        },
         "logfire": {
             "command": "uvx",
             "args": [
