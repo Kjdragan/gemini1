@@ -12,4 +12,6 @@ wheels/
 # uv (Astral) artifacts
 uv.lock
 
-/home/kjdrag/lrepos/gemini1/.gemini/settings.json
+
+.gemini/settings.json
+.gemini
