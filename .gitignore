@@ -8,4 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# uv (Astral) artifacts
+uv.lock
+
 /home/kjdrag/lrepos/gemini1/.gemini/settings.json
