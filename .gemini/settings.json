@@ -1,0 +1,40 @@
+{
+    "mcpServers": {
+        "consult7": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": [
+                "consult7",
+                "google",
+                "AIzaSyDcBt1Zcr5VbRSOeHIBLVr5uP2BregN1zw"
+            ],
+            "env": {}
+        },
+        "deepwiki": {
+            "type": "http",
+            "url": "https://mcp.deepwiki.com/mcp"
+        },
+        "logfire": {
+            "command": "uvx",
+            "args": [
+                "logfire-mcp@latest",
+                "--read-token=pylf_v1_us_W6rwRjKyyYPy6CBYSR1LKmCJT4JcBs5Q2dwjPcb6hXTP"
+            ]
+        },
+        "serena": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": [
+                "--from",
+                "git+https://github.com/oraios/serena",
+                "serena",
+                "start-mcp-server",
+                "--context",
+                "ide-assistant",
+                "--project",
+                "/home/kjdrag/lrepos/pyai"
+            ],
+            "env": {}
+        }
+    }
+}
