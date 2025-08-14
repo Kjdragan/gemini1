@@ -5,5 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "google-adk>=1.10.0",
+    "google-genai>=1.29.0",
+    "logfire>=4.3.3",
+    "pydantic-ai>=0.7.0",
+    "python-dotenv>=1.1.1",
+    "websockets>=15.0.1",
+    "requests>=2.31.0",
+    "pandas>=2.0.3",
 ]
+
+[project.scripts]
+bsky-capture-and-run = "blueskyfolder.__main__:main"
+bsky = "blueskyfolder.bluesky.agent_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

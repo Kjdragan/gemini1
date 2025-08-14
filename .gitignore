@@ -15,3 +15,4 @@ uv.lock
 
 .gemini/settings.json
 .gemini
+.env

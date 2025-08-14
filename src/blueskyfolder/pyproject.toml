@@ -1,0 +1,13 @@
+[project]
+name = "bluesky"
+version = "0.1.0"
+description = "CLI agent for ATProto Firehose using Pydantic AI + Gemini + Logfire"
+readme = "README.md"
+requires-python = ">=3.13"
+
+[project.scripts]
+bluesky = "bluesky.main:main"
+
+[build-system]
+requires = ["hatchling>=1.18.0"]
+build-backend = "hatchling.build"
